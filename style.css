@@ -162,3 +162,18 @@ header>nav {
       rgb(255, 255, 255),
       rgba(255, 255, 255, 0) 100%);
 }
+
+/* section3  */
+.section3 {
+  padding-top: 90PX;
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  text-align: center;
+}
+
+.inspiration-video {
+  padding: 32px;
+}
