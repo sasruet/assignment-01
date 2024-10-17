@@ -229,3 +229,66 @@ header>nav {
 .js-card {
   background: rgba(255, 223, 0, 0.05);
 }
+
+
+#support {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  background-image: url(./assets/handshake.jpg);
+  background-position: center;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.445);
+  background-blend-mode: overlay;
+  height: 313px;
+  
+}
+
+.support-container {
+  margin: auto;
+  width: 730px;
+  text-align: center;
+}
+
+.support-header h1 {
+  font-size: 32px;
+  color: white;
+}
+
+.support-header p {
+  font-family: Azeret Mono;
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.support-container button {
+  width: 120px;
+  height: 57px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.support-container input {
+  font-family: Azeret Mono;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 19px 20px 19px 20px;
+  width: 548px;
+  height: 57px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+}
