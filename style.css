@@ -177,3 +177,55 @@ header>nav {
 .inspiration-video {
   padding: 32px;
 }
+
+/* section4  */
+.section4 {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section4-header {
+  text-align: center;
+}
+
+.section4-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+
+}
+
+.section4-card .card {
+  padding: 30px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 364px;
+
+}
+
+.section4-card .card p{
+  opacity: 0.7;
+}
+
+.section4-card .card a{
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+
+.html-card {
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.css-card {
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.js-card {
+  background: rgba(255, 223, 0, 0.05);
+}
